@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,9 +44,12 @@
         <section class="hero_container container">
             <h1 class="hero_title">Pagina Web Personal de Aprendizaje</h1>
             <p class="hero_paragraph">Página generad a por Álvaro Rodríguez para la comprovación del aprendizaje en el grado superior de DAW."El software, las iglesias y las catedrales son muy parecidos: primero los construimos, luego rezamos"</p>
-            <a href="#" class="cta">Explora más</a> 
+            <a href="#" class="cta show_login">Explora más</a> 
+             
         </section>
     </header>
+     
+
 
     <main>
         <section class="container about">
@@ -89,7 +93,7 @@
                     <div class="knowledge_texts">
                         <h2 class="subtitle">Página web de aprendizaje. ¡Si no eres profesor no juzgues!</h2>
                         <p class="knowledge_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusamus excepturi, dignissimos iste saepe sapiente. Quisquam reprehenderit asperiores, quidem possimus ad odio molestiae! Quam aliquid fugiat illo, explicabo laboriosam quasi?</p>
-                        <a href="#" class="cta">Explora más</a>
+                        <a href="" class="cta show_login">Explora más</a>
                     </div>
 
                     <figure class="knowledge_picture">
@@ -127,7 +131,7 @@
                         <p class="price">Diseño</p>
                     </div>
 
-                    <a href="#" class="price_cta2">Empieza ahora</a>
+                    <a href="#" class="price_cta2 show_login">Empieza ahora</a>
                     
                 </div>
             </div>
@@ -171,7 +175,7 @@
             </div>
         </section>
         <section class="questions container">
-            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <h2 class="squestions_titleubtitle">Preguntas frecuentes</h2>
             <p class="questions_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto assumenda nobis laborum natus facilis reprehenderit ad nostrum voluptate quis ullam ea praesentium dolorem, nulla sunt dignissimos commodi provident voluptatum non.</p>
 
             <section class="questions_container">
@@ -181,7 +185,7 @@
                             <img src="./Imagenes/arrow1.svg" alt="" class="questions_img">
                         </spans></h3>
 
-                        <p class="questions_show">mi recomendación es llevar un estudio progresivo si es que de verdad te inteeresa el tema. Pero si tu único objetivo es diseñar una sola pagina web puedes copiar el codigo de un repositorio de github, o mirar tutoriales en youtube sobre la página que más te guste y editarla a tú manera.</p>
+                        <p class="questions_show">Mi recomendación es llevar un estudio progresivo si es que de verdad te inteeresa el tema. Pero si tu único objetivo es diseñar una sola pagina web puedes copiar el codigo de un repositorio de github, o mirar tutoriales en youtube sobre la página que más te guste y editarla a tú manera.</p>
                     </div>
                 </article>
                 <article class="questions_padding">
@@ -205,6 +209,65 @@
             </section>
         </section>
     </main>
+    <!-- apartado del login -->
+            <div class="login">
+                <div class="wrapper">
+                    <img src="./Imagenes/close.svg" class="close_img">
+                    <div class="form_box login">
+                        <h2>Iniciar sesion</h2>
+                        <form action="#">
+                            <div class="input_box">
+                                <img src="Imagenes/user.svg">
+                                <input type="user" required>
+                                <label>User</label>
+                            </div>
+                            <div class="input_box">
+                                <img src="Imagenes/password.svg">
+                                <input type="password" required>
+                                <label>Password</label>
+                            </div>
+                            <div class="remember_forgot">
+                                <label><input type="checkbox">Recuerdame</label>
+                                <a href="#">¿Contraseña olvidada?</a><br>
+                                <div>
+                                    <button type="submit" class="btn">Iniciar sesion</button>
+                                    <div class="login_register">
+                                        <p>¿No tienes una cuenta?<a href="#" class="register_link">Registrarse</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form_box register">
+                        <h2>Registrarse</h2>
+                        <form action="#">
+                            <div class="input_box">
+                                <img src="Imagenes/user.svg">
+                                <input type="user" required>
+                                <label>User</label>
+                            </div>
+                            <div class="input_box">
+                                <img src="Imagenes/password.svg">
+                                <input type="password" required>
+                                <label>Password</label>
+                            </div>
+                            <div class="remember_forgot">
+                                <label><input type="checkbox">Aceptar los terminos y condiciones</label>
+                            
+                                <div>
+                                    <button type="submit" class="btn">Registrarse</button>
+                                    <div class="login_register">
+                                        <p>¿Ya tienes una cuenta?<a href="#" class="login_link">Iniciar sesion</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
     <script src="./JS/slider.js"></script>
+    <script src="./JS/usuarios.js"></script>
+    <script src="./JS/questions.js"></script>
+
 </body>
 </html>
